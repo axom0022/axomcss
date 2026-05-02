@@ -15,8 +15,7 @@ CDN link
 ---
 
 THEMES
-
-
+```
 axom.theme.setTheme('light')
 axom.theme.setTheme('dark')
 axom.theme.setTheme('ocean')
@@ -27,7 +26,7 @@ axom.theme.setTheme('corporate')
 axom.theme.setTheme('neon')
 axom.theme.setTheme('pastel')
 axom.theme.setTheme('high-contrast')
-
+```
 
 ---
 
