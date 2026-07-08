@@ -2,7 +2,7 @@
 > it is easy and simple to use. 
 
 *creator : Axom*                    . 
-**[our discord](https://discord.com/invite/FgR3MXqZy9)**
+**[our discord](https://discord.gg/QAhCXgaDZg)**
 
 ### AXOMCSS DOCUMENTATION
 
