@@ -107,7 +107,7 @@ if(!wordmatch)return undefined;
 const resultlist = allcompletionlist["map"](function(entry){
 const completionitem = new vscode["CompletionItem"](entry["label"],vscode["CompletionItemKind"]["Value"]);
 completionitem["detail"] = entry["detail"];
-completionitem["documentation"] = new vscode["MarkdownString"](entry["doc"]||"AxomCSS utility: `"+entry["label"]+"`\n\nFaster than Tailwind, built-in glass glow gradient.");
+completionitem["documentation"] = new vscode["MarkdownString"](entry["doc"]||"AxomCSS utility: `"+entry["label"]+"`\n\nbuilt-in glass glow gradient.");
 completionitem["sortText"] = entry["label"];
 if(entry["label"]["startsWith"]("bg-")||entry["label"]["startsWith"]("text-")||entry["label"]["startsWith"]("border-")){
 const colorcheck = entry["label"]["split"]("-")["pop"]();
@@ -136,16 +136,16 @@ markdown["appendMarkdown"]("Typography utility.\n\n```css\n."+wordtext["replace"
 }else if(wordtext==="glass"||wordtext==="glass-strong"){
 markdown["appendMarkdown"]("Built-in glass morphism backdrop-filter blur 24px saturate 200%\n\nNo extra CSS needed.");
 }else if(wordtext==="glow"){
-markdown["appendMarkdown"]("Glow effect box-shadow with violet glow prettier than Bootstrap.");
+markdown["appendMarkdown"]("Glow effect box-shadow with violet glow");
 }else{
-markdown["appendMarkdown"]("AxomCSS utility faster than Tailwind 48KB runtime.\n\n[Docs](https://github.com/axom0022/axomcss)");
+markdown["appendMarkdown"]("AxomCSS utility.\n\n[Docs](https://github.com/axom0022/axomcss)");
 }
 markdown["isTrusted"] = true;
 return new vscode["Hover"](markdown);
 }
 }});
 contextref["subscriptions"]["push"](completionprovider,hoverprovider);
-vscode["window"]["showInformationMessage"]("AxomCSS v4 activated instant autocomplete ready Type class=\"...\"");
+vscode["window"]["showInformationMessage"]("AxomCSS v3 activated instant autocomplete ready Type class=\"...\"");
 }
 function deactivate(){}
 module.exports = {"activate":activate,"deactivate":deactivate};
