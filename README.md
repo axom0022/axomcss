@@ -1,4 +1,4 @@
-> axomcss is a framework buikt for css
+> axomcss is a framework built for css
 > it is easy and simple to use and learn
 
 axomcss receives enough updates too often to add all features enough to get your attention if youre a web designer
@@ -9,10 +9,11 @@ this framework will be better than other frameworks (guranteed)
 
 
 *creator : Axom*                    . 
-**[our discord](https://discord.gg/QAhCXgaDZg)**
+**[our discord](https://discord.gg/Sps39CydcZ)**
 
 # UPDATE LOG (V2)
-## bugs
+```
+bugs
 
 - fixed trailing spaces
 - fixed && operator
@@ -25,7 +26,7 @@ this framework will be better than other frameworks (guranteed)
 
 ## Speed 
 
-- instant loading
+- 20ms+
 
 ## Added
 
@@ -131,9 +132,25 @@ axomcss.colors;
 axomcss.config;
 
 - added 2 color families (20 --> 22)
-
+```
 axomcss were working perfectly. but it got improved.
 
+# AXOMCSS V3 UPDATE LOGS
+```
+> fixed bugs (transform override - filter override - zMap limited, etc)
+
+> axomcss v2 = 300 utilities ---> axomcss v3 = 500 utilities
+
+> speed : axomcss v2 = 50ms+ ---> axomcss v3 = 3ms
+
+> design system ; axomcss v2 = none ---> axomcss v3 = 30+ free and 100+ pro
+
+> added VsCode 2000+
+
+> added prettier
+
+> added npm support
+```
 ### AXOMCSS DOCUMENTATION
 
 # Installation
@@ -145,3 +162,4 @@ Add this script tag to your HTML file:
 ```
 
 Documentation Soon...
+# OUR DISCORD SERVER = https://discord.gg/Sps39CydcZ | OUR YOUTUBE CHANNEL = https://YouTube.com/@axos0022
