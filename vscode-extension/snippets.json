@@ -1,0 +1,39 @@
+{
+  "Axom Card": {
+    "prefix": "axom-card",
+    "body": [
+      "<div class=\"card glass-strong p-8 rounded-[24px] max-w-[400px] hover:scale-[1.02] transition-all duration-300 shadow-xl\">",
+      "  <div class=\"w-12 h-12 rounded-[12px] bg-gradient-to-br from-violet-600 to-indigo-600 flex items-center justify-center text-white mb-4\">✦</div>",
+      "  <h3 class=\"text-[20px] font-bold tracking-tight\">${1:Card Title}</h3>",
+      "  <p class=\"text-[14px] text-zinc-600 mt-2 leading-[1.6]\">${2:Description with instant AxomCSS utilities.}</p>",
+      "  <button class=\"btn-primary mt-6 w-full\">${3:Action} →</button>",
+      "</div>"
+    ],
+    "description": "AxomCSS glass card with hover"
+  },
+  "Axom Button Primary": {
+    "prefix": "axom-btn",
+    "body": ["<button class=\"btn-primary hover:scale-[1.02] active:scale-[0.98] hover:glow transition-all\">${1:Primary} →</button>"],
+    "description": "Primary button with glow"
+  },
+  "Axom Glass": {
+    "prefix": "axom-glass",
+    "body": ["<div class=\"glass-strong rounded-[24px] p-8 border border-white/20 shadow-2xl backdrop-blur-xl\">${1:Content}</div>"],
+    "description": "Glass morphism container"
+  },
+  "Axom Center": {
+    "prefix": "axom-center",
+    "body": ["<div class=\"flex center min-h-screen bg-gradient-to-br from-violet-600 to-indigo-600 p-8\">", "  $0", "</div>"],
+    "description": "Centered layout"
+  },
+  "Axom Grid": {
+    "prefix": "axom-grid",
+    "body": ["<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6\">", "  $0", "</div>"],
+    "description": "Responsive grid"
+  },
+  "Axom Flex": {
+    "prefix": "axom-flex",
+    "body": ["<div class=\"flex items-center justify-between gap-4\">", "  $0", "</div>"],
+    "description": "Flex row"
+  }
+}
