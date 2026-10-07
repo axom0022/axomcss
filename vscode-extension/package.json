@@ -1,0 +1,36 @@
+{
+  "name": "axomcss",
+  "displayName": "AxomCSS - Utility Framework",
+  "description": "Intelligent autocomplete, hover preview, and docs for AxomCSS v3. RTL-first.",
+  "version": "3.0.0",
+  "publisher": "axom0022",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Programming Languages", "Linters", "Snippets"],
+  "keywords": ["axomcss", "tailwind", "css", "utility", "rtl", "glass", "instant"],
+  "activationEvents": ["onLanguage:html", "onLanguage:javascript", "onLanguage:typescript", "onLanguage:javascriptreact", "onLanguage:typescriptreact", "onLanguage:vue", "onLanguage:svelte", "onLanguage:astro"],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "axomcss",
+        "aliases": ["AxomCSS"],
+        "extensions": [".axomcss"]
+      }
+    ],
+    "configuration": {
+      "title": "AxomCSS",
+      "properties": {
+        "axomcss.enableEmmet": { "type": "boolean", "default": true, "description": "Enable Emmet-style completions for AxomCSS" },
+        "axomcss.showColorPreview": { "type": "boolean", "default": true, "description": "Show color preview in completion" },
+        "axomcss.hoverPreview": { "type": "boolean", "default": true, "description": "Show CSS preview on hover" }
+      }
+    },
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets.json"
+      }
+    ]
+  },
+  "icon": "icon.png"
+}
