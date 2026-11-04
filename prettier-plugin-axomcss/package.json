@@ -1,10 +1,19 @@
 {
   "name": "prettier-plugin-axomcss",
-  "version": "4.0.0",
-  "description": "Prettier plugin that sorts AxomCSS classes in recommended order - layout, sizing, spacing, typography, backgrounds, borders, effects, interactivity, RTL-first.",
+  "version": "3.0.0",
+  "description": "Prettier plugin that sorts AxomCSS classes in recommended order",
   "main": "index.js",
-  "keywords": ["prettier", "plugin", "axomcss", "tailwind", "sort", "classes"],
-  "peerDependencies": { "prettier": "^2 || ^3" },
+  "keywords": [
+    "prettier",
+    "plugin",
+    "axomcss",
+    "tailwind",
+    "sort",
+    "classes"
+  ],
+  "peerDependencies": {
+    "prettier": "^2 || ^3"
+  },
   "author": "axom0022",
   "license": "MIT"
 }
