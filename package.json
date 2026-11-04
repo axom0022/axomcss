@@ -1,0 +1,49 @@
+{
+  "name": "axomcss",
+  "version": "3.0.0",
+  "description": "AxomCSS v3 - Instant, RTL-First, Zero FOUC",
+  "main": "axomcss.js",
+  "module": "axomcss.js",
+  "unpkg": "axomcss.js",
+  "jsdelivr": "axomcss.js",
+  "files": [
+    "axomcss.js",
+    "vscode-extension/",
+    "prettier-plugin-axomcss/"
+  ],
+  "keywords": [
+    "css",
+    "tailwind",
+    "utility",
+    "instant",
+    "rtl",
+    "glass",
+    "glow",
+    "bootstrap",
+    "unocss",
+    "framework"
+  ],
+  "author": "axom0022",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axom0022/axomcss"
+  },
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'src is axomcss.js v3 - no minified needed'",
+    "test": "node --check axomcss.js && echo 'Syntax OK'",
+    "benchmark": "open benchmark.html",
+    "studio": "open studio.html",
+    "ai": "open ai.html"
+  },
+  "devDependencies": {
+    "terser": "^5.0.0",
+    "prettier": "^3.0.0"
+  },
+  "prettier": {
+    "plugins": [
+      "./prettier-plugin-axomcss"
+    ]
+  }
+}
